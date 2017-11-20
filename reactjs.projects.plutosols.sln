@@ -24,10 +24,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.webpack.plutosols",
 		SlnRelativePath = "reactjs.webpack.plutosols\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reactjs.mvc.plutosols", "..\reactjs.mvc.plutosols\reactjs.mvc.plutosols.csproj", "{ADA52964-DDDE-4351-A8FD-0C4EC4C6EF52}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reactjs.existingapp.plutosols", "..\reactjs.existingapp.plutosols\reactjs.existingapp.plutosols.csproj", "{AAFA4F05-206C-438A-939F-F2446A9BE346}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.review.plutosols", "reactjs.review.plutosols\", "{3CA067F1-11FB-499A-AA84-2646EB4A7267}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
@@ -47,27 +43,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.review.plutosols", 
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "61371"
 		SlnRelativePath = "reactjs.review.plutosols\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.boilerplate.plutosols(1)", "reactjs.boilerplate.plutosols\", "{DD352534-45A1-464F-B6DA-63C2728E0D1D}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_52625"
-		Debug.AspNetCompiler.PhysicalPath = "reactjs.boilerplate.plutosols\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52625\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_52625"
-		Release.AspNetCompiler.PhysicalPath = "reactjs.boilerplate.plutosols\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52625\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "52625"
-		SlnRelativePath = "reactjs.boilerplate.plutosols\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.app.plutosols(1)", "reactjs.app.plutosols\", "{06F38FA0-921E-422A-94C5-C803696539F0}"
@@ -91,6 +66,29 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.app.plutosols(1)", 
 		SlnRelativePath = "reactjs.app.plutosols\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reactjs.mvc.plutosols", "..\reactjs.mvc.plutosols\reactjs.mvc.plutosols.csproj", "{77214442-D00A-4C39-9419-7285B6949D22}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs.babel.plutosols", "reactjs.babel.plutosols\", "{F4740E03-5C62-4C92-BAD6-A6183C6BEC5A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60501"
+		Debug.AspNetCompiler.PhysicalPath = "reactjs.babel.plutosols\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60501\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60501"
+		Release.AspNetCompiler.PhysicalPath = "reactjs.babel.plutosols\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60501\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60501"
+		SlnRelativePath = "reactjs.babel.plutosols\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,26 +99,22 @@ Global
 		{8183A232-9442-44DA-B354-9C9F1272EDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8183A232-9442-44DA-B354-9C9F1272EDCB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{8183A232-9442-44DA-B354-9C9F1272EDCB}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{ADA52964-DDDE-4351-A8FD-0C4EC4C6EF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADA52964-DDDE-4351-A8FD-0C4EC4C6EF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADA52964-DDDE-4351-A8FD-0C4EC4C6EF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADA52964-DDDE-4351-A8FD-0C4EC4C6EF52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAFA4F05-206C-438A-939F-F2446A9BE346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAFA4F05-206C-438A-939F-F2446A9BE346}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAFA4F05-206C-438A-939F-F2446A9BE346}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAFA4F05-206C-438A-939F-F2446A9BE346}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3CA067F1-11FB-499A-AA84-2646EB4A7267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CA067F1-11FB-499A-AA84-2646EB4A7267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA067F1-11FB-499A-AA84-2646EB4A7267}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CA067F1-11FB-499A-AA84-2646EB4A7267}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{DD352534-45A1-464F-B6DA-63C2728E0D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD352534-45A1-464F-B6DA-63C2728E0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD352534-45A1-464F-B6DA-63C2728E0D1D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD352534-45A1-464F-B6DA-63C2728E0D1D}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{06F38FA0-921E-422A-94C5-C803696539F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06F38FA0-921E-422A-94C5-C803696539F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F38FA0-921E-422A-94C5-C803696539F0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{06F38FA0-921E-422A-94C5-C803696539F0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{77214442-D00A-4C39-9419-7285B6949D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77214442-D00A-4C39-9419-7285B6949D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77214442-D00A-4C39-9419-7285B6949D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77214442-D00A-4C39-9419-7285B6949D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4740E03-5C62-4C92-BAD6-A6183C6BEC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4740E03-5C62-4C92-BAD6-A6183C6BEC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4740E03-5C62-4C92-BAD6-A6183C6BEC5A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4740E03-5C62-4C92-BAD6-A6183C6BEC5A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
